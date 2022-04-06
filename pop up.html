@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+        }
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: max-content;
+            gap: 10px;
+            border: 2px solid black;
+        }
+        input + label{
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="registration forms">
+        <form>
+            <label>first-name</label>
+        <input type="text" placeholder="robel" name="" id="first-name" required>
+        <label>last-name</label>
+        <input type="text" placeholder="alam" name="" id="last-name" required> <br>
+        
+        <label for="gender">male</label>
+        <input type="radio" name="female" value="choice 1"  required>
+
+        <label for="gender">female</label>
+        <input type="radio" name="female" value="choice 2" required>
+
+        <label for="gender">other</label>
+        <input type="radio" name="female" value="choice 3"required > <br>
+        
+        <label for="email"> Enter your Email</label>
+        <input type="email" required >
+        
+        <label for="months"> Enter your birthdate</label>
+        <input type="date" name="birthdate" value="" > <br>
+
+        <input type="submit" name="checkbox" value="submit">
+
+
+        
+        </form>
+ 
+
+    </div>
+
+
+   <script src="ifco.js"></script>
+    
+</body>
+</html>
